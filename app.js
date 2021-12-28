@@ -24,7 +24,7 @@ const users = [
     updated: '5-8-2021',
     owner: 'User 3',
     action: 'Action',
-  },
+  }, 
 ];
 app.get('/users/', function (request, response) {
   response.setHeader('Access-Control-Allow-Origin', '*');
